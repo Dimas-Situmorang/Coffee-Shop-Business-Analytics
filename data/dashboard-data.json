@@ -1,73 +1,60 @@
 {
   "meta": {
-    "projectName": "Coffee Shop Business Analytics Dashboard",
-    "dataset": "Maven Coffee Shop Sales",
-    "dateRange": "01 Jan 2023 - 30 Jun 2023",
-    "note": "DA/BI-only project. Forecasting ML is intentionally separated."
+    "datasetName": "Coffee Shop Sales",
+    "source": "Maven Analytics Data Playground",
+    "dateRange": "01 Jan 2023 - 30 Jun 2023"
   },
   "summary": {
     "totalRevenue": 698812.33,
-    "totalQuantity": 214470,
     "totalTransactions": 149116,
+    "totalQuantity": 214470,
     "averageOrderValue": 4.69,
-    "uniqueProducts": 80,
-    "storeCount": 3,
-    "periodDays": 181,
     "revenueGrowthJanToJunPct": 103.83,
-    "morningRevenueSharePct": 45.8,
-    "topCategory": "Coffee",
-    "topStore": "Hell's Kitchen",
-    "topProduct": "Sustainably Grown Organic Lg",
-    "bestHour": "10:00"
+    "bestHour": "10:00",
+    "morningRevenueSharePct": 45.8
   },
   "monthlyRevenue": [
     {
+      "month": "2023-01",
       "month_label": "Jan 2023",
       "revenue": 81677.74,
       "quantity": 24870,
-      "transactions": 17314,
-      "aov": 4.72,
-      "revenue_growth_pct": 0.0
+      "transactions": 17314
     },
     {
+      "month": "2023-02",
       "month_label": "Feb 2023",
       "revenue": 76145.19,
       "quantity": 23550,
-      "transactions": 16359,
-      "aov": 4.65,
-      "revenue_growth_pct": -6.77
+      "transactions": 16359
     },
     {
+      "month": "2023-03",
       "month_label": "Mar 2023",
       "revenue": 98834.68,
       "quantity": 30406,
-      "transactions": 21229,
-      "aov": 4.66,
-      "revenue_growth_pct": 29.8
+      "transactions": 21229
     },
     {
+      "month": "2023-04",
       "month_label": "Apr 2023",
       "revenue": 118941.08,
       "quantity": 36469,
-      "transactions": 25335,
-      "aov": 4.69,
-      "revenue_growth_pct": 20.34
+      "transactions": 25335
     },
     {
+      "month": "2023-05",
       "month_label": "May 2023",
       "revenue": 156727.76,
       "quantity": 48233,
-      "transactions": 33527,
-      "aov": 4.67,
-      "revenue_growth_pct": 31.77
+      "transactions": 33527
     },
     {
+      "month": "2023-06",
       "month_label": "Jun 2023",
       "revenue": 166485.88,
       "quantity": 50942,
-      "transactions": 35352,
-      "aov": 4.71,
-      "revenue_growth_pct": 6.23
+      "transactions": 35352
     }
   ],
   "categoryPerformance": [
@@ -76,81 +63,63 @@
       "revenue": 269952.45,
       "quantity": 89250,
       "transactions": 58416,
-      "products": 21,
-      "revenue_share_pct": 38.63,
-      "aov": 4.62
+      "revenue_share_pct": 38.63
     },
     {
       "product_category": "Tea",
       "revenue": 196405.95,
       "quantity": 69737,
       "transactions": 45449,
-      "products": 16,
-      "revenue_share_pct": 28.11,
-      "aov": 4.32
+      "revenue_share_pct": 28.11
     },
     {
       "product_category": "Bakery",
       "revenue": 82315.64,
       "quantity": 23214,
       "transactions": 22796,
-      "products": 11,
-      "revenue_share_pct": 11.78,
-      "aov": 3.61
+      "revenue_share_pct": 11.78
     },
     {
       "product_category": "Drinking Chocolate",
       "revenue": 72416.0,
       "quantity": 17457,
       "transactions": 11468,
-      "products": 4,
-      "revenue_share_pct": 10.36,
-      "aov": 6.31
+      "revenue_share_pct": 10.36
     },
     {
       "product_category": "Coffee beans",
       "revenue": 40085.25,
       "quantity": 1828,
       "transactions": 1753,
-      "products": 10,
-      "revenue_share_pct": 5.74,
-      "aov": 22.87
+      "revenue_share_pct": 5.74
     },
     {
       "product_category": "Branded",
       "revenue": 13607.0,
       "quantity": 776,
       "transactions": 747,
-      "products": 3,
-      "revenue_share_pct": 1.95,
-      "aov": 18.22
+      "revenue_share_pct": 1.95
     },
     {
       "product_category": "Loose Tea",
-      "revenue": 11213.6,
+      "revenue": 11213.599999999999,
       "quantity": 1210,
       "transactions": 1210,
-      "products": 8,
-      "revenue_share_pct": 1.6,
-      "aov": 9.27
+      "revenue_share_pct": 1.6
     },
     {
       "product_category": "Flavours",
-      "revenue": 8408.8,
+      "revenue": 8408.800000000001,
       "quantity": 10511,
       "transactions": 6790,
-      "products": 4,
-      "revenue_share_pct": 1.2,
-      "aov": 1.24
+      "revenue_share_pct": 1.2
     },
     {
       "product_category": "Packaged Chocolate",
       "revenue": 4407.64,
       "quantity": 487,
       "transactions": 487,
-      "products": 3,
-      "revenue_share_pct": 0.63,
-      "aov": 9.05
+      "revenue_share_pct": 0.63
     }
   ],
   "storePerformance": [
@@ -159,27 +128,24 @@
       "revenue": 236511.17,
       "quantity": 71737,
       "transactions": 50735,
-      "products": 80,
       "revenue_share_pct": 33.84,
-      "aov": 4.66
+      "aov": 4.661696462008476
     },
     {
       "store_location": "Astoria",
       "revenue": 232243.91,
       "quantity": 70991,
       "transactions": 50599,
-      "products": 79,
       "revenue_share_pct": 33.23,
-      "aov": 4.59
+      "aov": 4.589891302199648
     },
     {
       "store_location": "Lower Manhattan",
       "revenue": 230057.25,
       "quantity": 71742,
       "transactions": 47782,
-      "products": 80,
       "revenue_share_pct": 32.92,
-      "aov": 4.81
+      "aov": 4.814726256749403
     }
   ],
   "hourlyPattern": [
@@ -294,50 +260,43 @@
       "weekday": "Monday",
       "revenue": 101677.28,
       "quantity": 31231,
-      "transactions": 21643,
-      "aov": 4.7
+      "transactions": 21643
     },
     {
       "weekday": "Tuesday",
       "revenue": 99455.94,
       "quantity": 30449,
-      "transactions": 21202,
-      "aov": 4.69
+      "transactions": 21202
     },
     {
       "weekday": "Wednesday",
       "revenue": 100313.54,
       "quantity": 30625,
-      "transactions": 21310,
-      "aov": 4.71
+      "transactions": 21310
     },
     {
       "weekday": "Thursday",
       "revenue": 100767.78,
       "quantity": 31162,
-      "transactions": 21654,
-      "aov": 4.65
+      "transactions": 21654
     },
     {
       "weekday": "Friday",
       "revenue": 101373.0,
       "quantity": 31207,
-      "transactions": 21701,
-      "aov": 4.67
+      "transactions": 21701
     },
     {
       "weekday": "Saturday",
       "revenue": 96894.48,
       "quantity": 29614,
-      "transactions": 20510,
-      "aov": 4.72
+      "transactions": 20510
     },
     {
       "weekday": "Sunday",
       "revenue": 98330.31,
       "quantity": 30182,
-      "transactions": 21096,
-      "aov": 4.66
+      "transactions": 21096
     }
   ],
   "topProductsByRevenue": [
@@ -350,7 +309,7 @@
       "quantity": 4453,
       "transactions": 2961,
       "revenue_share_pct": 3.03,
-      "aov": 7.14
+      "aov": 7.143448159405606
     },
     {
       "product_id": 59,
@@ -361,7 +320,7 @@
       "quantity": 4668,
       "transactions": 3029,
       "revenue_share_pct": 3.01,
-      "aov": 6.93
+      "aov": 6.93496203367448
     },
     {
       "product_id": 39,
@@ -372,7 +331,7 @@
       "quantity": 4497,
       "transactions": 2896,
       "revenue_share_pct": 2.73,
-      "aov": 6.6
+      "aov": 6.5995338397790055
     },
     {
       "product_id": 41,
@@ -383,7 +342,7 @@
       "quantity": 4151,
       "transactions": 2772,
       "revenue_share_pct": 2.52,
-      "aov": 6.36
+      "aov": 6.3642676767676765
     },
     {
       "product_id": 55,
@@ -394,7 +353,7 @@
       "quantity": 4346,
       "transactions": 2830,
       "revenue_share_pct": 2.49,
-      "aov": 6.14
+      "aov": 6.142756183745583
     },
     {
       "product_id": 38,
@@ -405,7 +364,7 @@
       "quantity": 4602,
       "transactions": 2990,
       "revenue_share_pct": 2.47,
-      "aov": 5.77
+      "aov": 5.771739130434782
     },
     {
       "product_id": 36,
@@ -416,7 +375,7 @@
       "quantity": 4395,
       "transactions": 2911,
       "revenue_share_pct": 2.36,
-      "aov": 5.66
+      "aov": 5.661714187564411
     },
     {
       "product_id": 60,
@@ -427,7 +386,7 @@
       "quantity": 4329,
       "transactions": 2842,
       "revenue_share_pct": 2.32,
-      "aov": 5.71
+      "aov": 5.712086558761436
     },
     {
       "product_id": 40,
@@ -438,7 +397,7 @@
       "quantity": 4266,
       "transactions": 2793,
       "revenue_share_pct": 2.29,
-      "aov": 5.73
+      "aov": 5.727712137486574
     },
     {
       "product_id": 27,
@@ -449,7 +408,7 @@
       "quantity": 4317,
       "transactions": 2771,
       "revenue_share_pct": 2.16,
-      "aov": 5.45
+      "aov": 5.452724648141465
     },
     {
       "product_id": 33,
@@ -460,7 +419,7 @@
       "quantity": 4227,
       "transactions": 2741,
       "revenue_share_pct": 2.12,
-      "aov": 5.4
+      "aov": 5.39748267055819
     },
     {
       "product_id": 58,
@@ -471,7 +430,7 @@
       "quantity": 4007,
       "transactions": 2636,
       "revenue_share_pct": 2.01,
-      "aov": 5.32
+      "aov": 5.320371775417299
     },
     {
       "product_id": 57,
@@ -482,7 +441,7 @@
       "quantity": 4404,
       "transactions": 2951,
       "revenue_share_pct": 1.95,
-      "aov": 4.63
+      "aov": 4.626363944425618
     },
     {
       "product_id": 32,
@@ -493,7 +452,7 @@
       "quantity": 4393,
       "transactions": 2866,
       "revenue_share_pct": 1.89,
-      "aov": 4.6
+      "aov": 4.598394975575715
     },
     {
       "product_id": 26,
@@ -504,7 +463,172 @@
       "quantity": 4385,
       "transactions": 2904,
       "revenue_share_pct": 1.88,
-      "aov": 4.53
+      "aov": 4.529958677685951
+    },
+    {
+      "product_id": 45,
+      "product_detail": "Peppermint Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed herbal tea",
+      "revenue": 13050.0,
+      "quantity": 4350,
+      "transactions": 2857,
+      "revenue_share_pct": 1.87,
+      "aov": 4.567728386419321
+    },
+    {
+      "product_id": 49,
+      "product_detail": "English Breakfast Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed Black tea",
+      "revenue": 12927.0,
+      "quantity": 4309,
+      "transactions": 2852,
+      "revenue_share_pct": 1.85,
+      "aov": 4.532608695652174
+    },
+    {
+      "product_id": 51,
+      "product_detail": "Earl Grey Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed Black tea",
+      "revenue": 12735.0,
+      "quantity": 4245,
+      "transactions": 2702,
+      "revenue_share_pct": 1.82,
+      "aov": 4.713175425610658
+    },
+    {
+      "product_id": 47,
+      "product_detail": "Serenity Green Tea Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed Green tea",
+      "revenue": 12660.0,
+      "quantity": 4220,
+      "transactions": 2750,
+      "revenue_share_pct": 1.81,
+      "aov": 4.6036363636363635
+    },
+    {
+      "product_id": 30,
+      "product_detail": "Columbian Medium Roast Lg",
+      "product_category": "Coffee",
+      "product_type": "Gourmet brewed coffee",
+      "revenue": 12585.0,
+      "quantity": 4195,
+      "transactions": 2731,
+      "revenue_share_pct": 1.8,
+      "aov": 4.608202123764189
+    },
+    {
+      "product_id": 53,
+      "product_detail": "Traditional Blend Chai Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed Chai tea",
+      "revenue": 12522.0,
+      "quantity": 4174,
+      "transactions": 2716,
+      "revenue_share_pct": 1.79,
+      "aov": 4.610456553755522
+    },
+    {
+      "product_id": 37,
+      "product_detail": "Espresso shot",
+      "product_category": "Coffee",
+      "product_type": "Barista Espresso",
+      "revenue": 12495.0,
+      "quantity": 4165,
+      "transactions": 2730,
+      "revenue_share_pct": 1.79,
+      "aov": 4.576923076923077
+    },
+    {
+      "product_id": 35,
+      "product_detail": "Jamaican Coffee River Rg",
+      "product_category": "Coffee",
+      "product_type": "Premium brewed coffee",
+      "revenue": 12455.800000000001,
+      "quantity": 4018,
+      "transactions": 2594,
+      "revenue_share_pct": 1.78,
+      "aov": 4.8017733230532
+    },
+    {
+      "product_id": 43,
+      "product_detail": "Lemon Grass Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed herbal tea",
+      "revenue": 12267.0,
+      "quantity": 4089,
+      "transactions": 2647,
+      "revenue_share_pct": 1.76,
+      "aov": 4.634302984510767
+    },
+    {
+      "product_id": 24,
+      "product_detail": "Our Old Time Diner Blend Lg",
+      "product_category": "Coffee",
+      "product_type": "Drip coffee",
+      "revenue": 11991.0,
+      "quantity": 3997,
+      "transactions": 2664,
+      "revenue_share_pct": 1.72,
+      "aov": 4.501126126126126
+    },
+    {
+      "product_id": 50,
+      "product_detail": "Earl Grey Rg",
+      "product_category": "Tea",
+      "product_type": "Brewed Black tea",
+      "revenue": 11770.0,
+      "quantity": 4708,
+      "transactions": 3053,
+      "revenue_share_pct": 1.68,
+      "aov": 3.85522436947265
+    },
+    {
+      "product_id": 8,
+      "product_detail": "Civet Cat",
+      "product_category": "Coffee beans",
+      "product_type": "Premium Beans",
+      "revenue": 11700.0,
+      "quantity": 260,
+      "transactions": 190,
+      "revenue_share_pct": 1.67,
+      "aov": 61.578947368421055
+    },
+    {
+      "product_id": 71,
+      "product_detail": "Chocolate Croissant",
+      "product_category": "Bakery",
+      "product_type": "Pastry",
+      "revenue": 11625.98,
+      "quantity": 3096,
+      "transactions": 3076,
+      "revenue_share_pct": 1.66,
+      "aov": 3.7795773732119633
+    },
+    {
+      "product_id": 54,
+      "product_detail": "Morning Sunrise Chai Rg",
+      "product_category": "Tea",
+      "product_type": "Brewed Chai tea",
+      "revenue": 11607.5,
+      "quantity": 4643,
+      "transactions": 3026,
+      "revenue_share_pct": 1.66,
+      "aov": 3.8359220092531396
+    },
+    {
+      "product_id": 44,
+      "product_detail": "Peppermint Rg",
+      "product_category": "Tea",
+      "product_type": "Brewed herbal tea",
+      "revenue": 11410.0,
+      "quantity": 4564,
+      "transactions": 2949,
+      "revenue_share_pct": 1.63,
+      "aov": 3.8691081722617837
     }
   ],
   "topProductsByQuantity": [
@@ -517,7 +641,7 @@
       "quantity": 4708,
       "transactions": 3053,
       "revenue_share_pct": 1.68,
-      "aov": 3.86
+      "aov": 3.85522436947265
     },
     {
       "product_id": 59,
@@ -528,7 +652,7 @@
       "quantity": 4668,
       "transactions": 3029,
       "revenue_share_pct": 3.01,
-      "aov": 6.93
+      "aov": 6.93496203367448
     },
     {
       "product_id": 54,
@@ -539,7 +663,7 @@
       "quantity": 4643,
       "transactions": 3026,
       "revenue_share_pct": 1.66,
-      "aov": 3.84
+      "aov": 3.8359220092531396
     },
     {
       "product_id": 38,
@@ -550,7 +674,7 @@
       "quantity": 4602,
       "transactions": 2990,
       "revenue_share_pct": 2.47,
-      "aov": 5.77
+      "aov": 5.771739130434782
     },
     {
       "product_id": 44,
@@ -561,7 +685,7 @@
       "quantity": 4564,
       "transactions": 2949,
       "revenue_share_pct": 1.63,
-      "aov": 3.87
+      "aov": 3.8691081722617837
     },
     {
       "product_id": 29,
@@ -572,7 +696,7 @@
       "quantity": 4547,
       "transactions": 3013,
       "revenue_share_pct": 1.63,
-      "aov": 3.77
+      "aov": 3.772817789578493
     },
     {
       "product_id": 52,
@@ -583,7 +707,7 @@
       "quantity": 4512,
       "transactions": 2955,
       "revenue_share_pct": 1.61,
-      "aov": 3.82
+      "aov": 3.817258883248731
     },
     {
       "product_id": 39,
@@ -594,7 +718,7 @@
       "quantity": 4497,
       "transactions": 2896,
       "revenue_share_pct": 2.73,
-      "aov": 6.6
+      "aov": 6.5995338397790055
     },
     {
       "product_id": 22,
@@ -605,7 +729,7 @@
       "quantity": 4484,
       "transactions": 2919,
       "revenue_share_pct": 1.28,
-      "aov": 3.07
+      "aov": 3.0722850291195614
     },
     {
       "product_id": 46,
@@ -616,7 +740,7 @@
       "quantity": 4477,
       "transactions": 2921,
       "revenue_share_pct": 1.6,
-      "aov": 3.83
+      "aov": 3.831735706949675
     },
     {
       "product_id": 61,
@@ -627,7 +751,7 @@
       "quantity": 4453,
       "transactions": 2961,
       "revenue_share_pct": 3.03,
-      "aov": 7.14
+      "aov": 7.143448159405606
     },
     {
       "product_id": 31,
@@ -638,7 +762,7 @@
       "quantity": 4433,
       "transactions": 2833,
       "revenue_share_pct": 1.4,
-      "aov": 3.44
+      "aov": 3.4424991175432407
     },
     {
       "product_id": 23,
@@ -649,7 +773,7 @@
       "quantity": 4410,
       "transactions": 2894,
       "revenue_share_pct": 1.58,
-      "aov": 3.81
+      "aov": 3.8096060815480306
     },
     {
       "product_id": 57,
@@ -660,7 +784,7 @@
       "quantity": 4404,
       "transactions": 2951,
       "revenue_share_pct": 1.95,
-      "aov": 4.63
+      "aov": 4.626363944425618
     },
     {
       "product_id": 36,
@@ -671,15 +795,192 @@
       "quantity": 4395,
       "transactions": 2911,
       "revenue_share_pct": 2.36,
-      "aov": 5.66
+      "aov": 5.661714187564411
+    },
+    {
+      "product_id": 32,
+      "product_detail": "Ethiopia Rg",
+      "product_category": "Coffee",
+      "product_type": "Gourmet brewed coffee",
+      "revenue": 13179.0,
+      "quantity": 4393,
+      "transactions": 2866,
+      "revenue_share_pct": 1.89,
+      "aov": 4.598394975575715
+    },
+    {
+      "product_id": 26,
+      "product_detail": "Brazilian Rg",
+      "product_category": "Coffee",
+      "product_type": "Organic brewed coffee",
+      "revenue": 13155.0,
+      "quantity": 4385,
+      "transactions": 2904,
+      "revenue_share_pct": 1.88,
+      "aov": 4.529958677685951
+    },
+    {
+      "product_id": 45,
+      "product_detail": "Peppermint Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed herbal tea",
+      "revenue": 13050.0,
+      "quantity": 4350,
+      "transactions": 2857,
+      "revenue_share_pct": 1.87,
+      "aov": 4.567728386419321
+    },
+    {
+      "product_id": 55,
+      "product_detail": "Morning Sunrise Chai Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed Chai tea",
+      "revenue": 17384.0,
+      "quantity": 4346,
+      "transactions": 2830,
+      "revenue_share_pct": 2.49,
+      "aov": 6.142756183745583
+    },
+    {
+      "product_id": 60,
+      "product_detail": "Sustainably Grown Organic Rg",
+      "product_category": "Drinking Chocolate",
+      "product_type": "Hot chocolate",
+      "revenue": 16233.75,
+      "quantity": 4329,
+      "transactions": 2842,
+      "revenue_share_pct": 2.32,
+      "aov": 5.712086558761436
+    },
+    {
+      "product_id": 42,
+      "product_detail": "Lemon Grass Rg",
+      "product_category": "Tea",
+      "product_type": "Brewed herbal tea",
+      "revenue": 10812.5,
+      "quantity": 4325,
+      "transactions": 2792,
+      "revenue_share_pct": 1.55,
+      "aov": 3.8726719197707737
+    },
+    {
+      "product_id": 27,
+      "product_detail": "Brazilian Lg",
+      "product_category": "Coffee",
+      "product_type": "Organic brewed coffee",
+      "revenue": 15109.5,
+      "quantity": 4317,
+      "transactions": 2771,
+      "revenue_share_pct": 2.16,
+      "aov": 5.452724648141465
+    },
+    {
+      "product_id": 25,
+      "product_detail": "Brazilian Sm",
+      "product_category": "Coffee",
+      "product_type": "Organic brewed coffee",
+      "revenue": 9482.0,
+      "quantity": 4310,
+      "transactions": 2814,
+      "revenue_share_pct": 1.36,
+      "aov": 3.3695806680881306
+    },
+    {
+      "product_id": 49,
+      "product_detail": "English Breakfast Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed Black tea",
+      "revenue": 12927.0,
+      "quantity": 4309,
+      "transactions": 2852,
+      "revenue_share_pct": 1.85,
+      "aov": 4.532608695652174
+    },
+    {
+      "product_id": 40,
+      "product_detail": "Cappuccino",
+      "product_category": "Coffee",
+      "product_type": "Barista Espresso",
+      "revenue": 15997.5,
+      "quantity": 4266,
+      "transactions": 2793,
+      "revenue_share_pct": 2.29,
+      "aov": 5.727712137486574
+    },
+    {
+      "product_id": 51,
+      "product_detail": "Earl Grey Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed Black tea",
+      "revenue": 12735.0,
+      "quantity": 4245,
+      "transactions": 2702,
+      "revenue_share_pct": 1.82,
+      "aov": 4.713175425610658
+    },
+    {
+      "product_id": 33,
+      "product_detail": "Ethiopia Lg",
+      "product_category": "Coffee",
+      "product_type": "Gourmet brewed coffee",
+      "revenue": 14794.5,
+      "quantity": 4227,
+      "transactions": 2741,
+      "revenue_share_pct": 2.12,
+      "aov": 5.39748267055819
+    },
+    {
+      "product_id": 47,
+      "product_detail": "Serenity Green Tea Lg",
+      "product_category": "Tea",
+      "product_type": "Brewed Green tea",
+      "revenue": 12660.0,
+      "quantity": 4220,
+      "transactions": 2750,
+      "revenue_share_pct": 1.81,
+      "aov": 4.6036363636363635
+    },
+    {
+      "product_id": 48,
+      "product_detail": "English Breakfast Rg",
+      "product_category": "Tea",
+      "product_type": "Brewed Black tea",
+      "revenue": 10500.0,
+      "quantity": 4200,
+      "transactions": 2743,
+      "revenue_share_pct": 1.5,
+      "aov": 3.827925628873496
+    },
+    {
+      "product_id": 30,
+      "product_detail": "Columbian Medium Roast Lg",
+      "product_category": "Coffee",
+      "product_type": "Gourmet brewed coffee",
+      "revenue": 12585.0,
+      "quantity": 4195,
+      "transactions": 2731,
+      "revenue_share_pct": 1.8,
+      "aov": 4.608202123764189
     }
   ],
   "storeCategory": [
+    {
+      "store_location": "Hell's Kitchen",
+      "product_category": "Coffee",
+      "revenue": 91222.65,
+      "quantity": 30220
+    },
     {
       "store_location": "Astoria",
       "product_category": "Coffee",
       "revenue": 89744.3,
       "quantity": 29655
+    },
+    {
+      "store_location": "Lower Manhattan",
+      "product_category": "Coffee",
+      "revenue": 88985.5,
+      "quantity": 29375
     },
     {
       "store_location": "Astoria",
@@ -688,106 +989,10 @@
       "quantity": 24048
     },
     {
-      "store_location": "Astoria",
-      "product_category": "Bakery",
-      "revenue": 26599.75,
-      "quantity": 7496
-    },
-    {
-      "store_location": "Astoria",
-      "product_category": "Drinking Chocolate",
-      "revenue": 26335.25,
-      "quantity": 6351
-    },
-    {
-      "store_location": "Astoria",
-      "product_category": "Coffee beans",
-      "revenue": 10219.2,
-      "quantity": 502
-    },
-    {
-      "store_location": "Astoria",
-      "product_category": "Branded",
-      "revenue": 5457.0,
-      "quantity": 279
-    },
-    {
-      "store_location": "Astoria",
-      "product_category": "Loose Tea",
-      "revenue": 3194.0,
-      "quantity": 344
-    },
-    {
-      "store_location": "Astoria",
-      "product_category": "Flavours",
-      "revenue": 1764.8,
-      "quantity": 2206
-    },
-    {
-      "store_location": "Astoria",
-      "product_category": "Packaged Chocolate",
-      "revenue": 1089.71,
-      "quantity": 110
-    },
-    {
-      "store_location": "Hell's Kitchen",
-      "product_category": "Coffee",
-      "revenue": 91222.65,
-      "quantity": 30220
-    },
-    {
       "store_location": "Hell's Kitchen",
       "product_category": "Tea",
       "revenue": 64701.3,
       "quantity": 22980
-    },
-    {
-      "store_location": "Hell's Kitchen",
-      "product_category": "Bakery",
-      "revenue": 27386.95,
-      "quantity": 7678
-    },
-    {
-      "store_location": "Hell's Kitchen",
-      "product_category": "Drinking Chocolate",
-      "revenue": 23586.25,
-      "quantity": 5672
-    },
-    {
-      "store_location": "Hell's Kitchen",
-      "product_category": "Coffee beans",
-      "revenue": 18635.1,
-      "quantity": 790
-    },
-    {
-      "store_location": "Hell's Kitchen",
-      "product_category": "Loose Tea",
-      "revenue": 4461.35,
-      "quantity": 485
-    },
-    {
-      "store_location": "Hell's Kitchen",
-      "product_category": "Flavours",
-      "revenue": 2876.8,
-      "quantity": 3596
-    },
-    {
-      "store_location": "Hell's Kitchen",
-      "product_category": "Branded",
-      "revenue": 1942.0,
-      "quantity": 119
-    },
-    {
-      "store_location": "Hell's Kitchen",
-      "product_category": "Packaged Chocolate",
-      "revenue": 1698.77,
-      "quantity": 197
-    },
-    {
-      "store_location": "Lower Manhattan",
-      "product_category": "Coffee",
-      "revenue": 88985.5,
-      "quantity": 29375
     },
     {
       "store_location": "Lower Manhattan",
@@ -802,10 +1007,40 @@
       "quantity": 8040
     },
     {
+      "store_location": "Hell's Kitchen",
+      "product_category": "Bakery",
+      "revenue": 27386.95,
+      "quantity": 7678
+    },
+    {
+      "store_location": "Astoria",
+      "product_category": "Bakery",
+      "revenue": 26599.75,
+      "quantity": 7496
+    },
+    {
+      "store_location": "Astoria",
+      "product_category": "Drinking Chocolate",
+      "revenue": 26335.25,
+      "quantity": 6351
+    },
+    {
+      "store_location": "Hell's Kitchen",
+      "product_category": "Drinking Chocolate",
+      "revenue": 23586.25,
+      "quantity": 5672
+    },
+    {
       "store_location": "Lower Manhattan",
       "product_category": "Drinking Chocolate",
       "revenue": 22494.5,
       "quantity": 5434
+    },
+    {
+      "store_location": "Hell's Kitchen",
+      "product_category": "Coffee beans",
+      "revenue": 18635.1,
+      "quantity": 790
     },
     {
       "store_location": "Lower Manhattan",
@@ -814,15 +1049,33 @@
       "quantity": 536
     },
     {
+      "store_location": "Astoria",
+      "product_category": "Coffee beans",
+      "revenue": 10219.2,
+      "quantity": 502
+    },
+    {
       "store_location": "Lower Manhattan",
       "product_category": "Branded",
       "revenue": 6208.0,
       "quantity": 378
     },
     {
+      "store_location": "Astoria",
+      "product_category": "Branded",
+      "revenue": 5457.0,
+      "quantity": 279
+    },
+    {
+      "store_location": "Hell's Kitchen",
+      "product_category": "Loose Tea",
+      "revenue": 4461.349999999999,
+      "quantity": 485
+    },
+    {
       "store_location": "Lower Manhattan",
       "product_category": "Flavours",
-      "revenue": 3767.2,
+      "revenue": 3767.2000000000003,
       "quantity": 4709
     },
     {
@@ -832,493 +1085,49 @@
       "quantity": 381
     },
     {
+      "store_location": "Astoria",
+      "product_category": "Loose Tea",
+      "revenue": 3194.0,
+      "quantity": 344
+    },
+    {
+      "store_location": "Hell's Kitchen",
+      "product_category": "Flavours",
+      "revenue": 2876.8,
+      "quantity": 3596
+    },
+    {
+      "store_location": "Hell's Kitchen",
+      "product_category": "Branded",
+      "revenue": 1942.0,
+      "quantity": 119
+    },
+    {
+      "store_location": "Astoria",
+      "product_category": "Flavours",
+      "revenue": 1764.8000000000002,
+      "quantity": 2206
+    },
+    {
+      "store_location": "Hell's Kitchen",
+      "product_category": "Packaged Chocolate",
+      "revenue": 1698.77,
+      "quantity": 197
+    },
+    {
       "store_location": "Lower Manhattan",
       "product_category": "Packaged Chocolate",
       "revenue": 1619.16,
       "quantity": 180
+    },
+    {
+      "store_location": "Astoria",
+      "product_category": "Packaged Chocolate",
+      "revenue": 1089.71,
+      "quantity": 110
     }
   ],
   "dayHourHeatmap": [
-    {
-      "weekday": "Monday",
-      "hour": 6,
-      "hour_label": "06:00",
-      "revenue": 3098.58,
-      "transactions": 661,
-      "intensity": 22.8
-    },
-    {
-      "weekday": "Monday",
-      "hour": 7,
-      "hour_label": "07:00",
-      "revenue": 9516.52,
-      "transactions": 1992,
-      "intensity": 70.03
-    },
-    {
-      "weekday": "Monday",
-      "hour": 8,
-      "hour_label": "08:00",
-      "revenue": 11604.69,
-      "transactions": 2482,
-      "intensity": 85.4
-    },
-    {
-      "weekday": "Monday",
-      "hour": 9,
-      "hour_label": "09:00",
-      "revenue": 11898.33,
-      "transactions": 2494,
-      "intensity": 87.56
-    },
-    {
-      "weekday": "Monday",
-      "hour": 10,
-      "hour_label": "10:00",
-      "revenue": 12427.25,
-      "transactions": 2612,
-      "intensity": 91.45
-    },
-    {
-      "weekday": "Monday",
-      "hour": 11,
-      "hour_label": "11:00",
-      "revenue": 7179.09,
-      "transactions": 1478,
-      "intensity": 52.83
-    },
-    {
-      "weekday": "Monday",
-      "hour": 12,
-      "hour_label": "12:00",
-      "revenue": 6139.64,
-      "transactions": 1308,
-      "intensity": 45.18
-    },
-    {
-      "weekday": "Monday",
-      "hour": 13,
-      "hour_label": "13:00",
-      "revenue": 5771.26,
-      "transactions": 1267,
-      "intensity": 42.47
-    },
-    {
-      "weekday": "Monday",
-      "hour": 14,
-      "hour_label": "14:00",
-      "revenue": 6463.31,
-      "transactions": 1376,
-      "intensity": 47.56
-    },
-    {
-      "weekday": "Monday",
-      "hour": 15,
-      "hour_label": "15:00",
-      "revenue": 6159.49,
-      "transactions": 1319,
-      "intensity": 45.33
-    },
-    {
-      "weekday": "Monday",
-      "hour": 16,
-      "hour_label": "16:00",
-      "revenue": 6139.96,
-      "transactions": 1355,
-      "intensity": 45.19
-    },
-    {
-      "weekday": "Monday",
-      "hour": 17,
-      "hour_label": "17:00",
-      "revenue": 5927.35,
-      "transactions": 1302,
-      "intensity": 43.62
-    },
-    {
-      "weekday": "Monday",
-      "hour": 18,
-      "hour_label": "18:00",
-      "revenue": 5006.19,
-      "transactions": 1077,
-      "intensity": 36.84
-    },
-    {
-      "weekday": "Monday",
-      "hour": 19,
-      "hour_label": "19:00",
-      "revenue": 4015.22,
-      "transactions": 846,
-      "intensity": 29.55
-    },
-    {
-      "weekday": "Monday",
-      "hour": 20,
-      "hour_label": "20:00",
-      "revenue": 330.4,
-      "transactions": 74,
-      "intensity": 2.43
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 6,
-      "hour_label": "06:00",
-      "revenue": 2320.25,
-      "transactions": 489,
-      "intensity": 17.08
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 7,
-      "hour_label": "07:00",
-      "revenue": 8841.71,
-      "transactions": 1846,
-      "intensity": 65.07
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 8,
-      "hour_label": "08:00",
-      "revenue": 12950.19,
-      "transactions": 2783,
-      "intensity": 95.3
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 9,
-      "hour_label": "09:00",
-      "revenue": 13588.47,
-      "transactions": 2753,
-      "intensity": 100.0
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 10,
-      "hour_label": "10:00",
-      "revenue": 13497.68,
-      "transactions": 2846,
-      "intensity": 99.33
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 11,
-      "hour_label": "11:00",
-      "revenue": 5877.41,
-      "transactions": 1301,
-      "intensity": 43.25
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 12,
-      "hour_label": "12:00",
-      "revenue": 5172.64,
-      "transactions": 1126,
-      "intensity": 38.07
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 13,
-      "hour_label": "13:00",
-      "revenue": 5443.46,
-      "transactions": 1152,
-      "intensity": 40.06
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 14,
-      "hour_label": "14:00",
-      "revenue": 5621.56,
-      "transactions": 1224,
-      "intensity": 41.37
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 15,
-      "hour_label": "15:00",
-      "revenue": 5852.24,
-      "transactions": 1254,
-      "intensity": 43.07
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 16,
-      "hour_label": "16:00",
-      "revenue": 5723.78,
-      "transactions": 1227,
-      "intensity": 42.12
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 17,
-      "hour_label": "17:00",
-      "revenue": 5609.85,
-      "transactions": 1232,
-      "intensity": 41.28
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 18,
-      "hour_label": "18:00",
-      "revenue": 4304.36,
-      "transactions": 957,
-      "intensity": 31.68
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 19,
-      "hour_label": "19:00",
-      "revenue": 3967.94,
-      "transactions": 872,
-      "intensity": 29.2
-    },
-    {
-      "weekday": "Tuesday",
-      "hour": 20,
-      "hour_label": "20:00",
-      "revenue": 684.4,
-      "transactions": 140,
-      "intensity": 5.04
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 6,
-      "hour_label": "06:00",
-      "revenue": 3396.23,
-      "transactions": 698,
-      "intensity": 24.99
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 7,
-      "hour_label": "07:00",
-      "revenue": 8905.86,
-      "transactions": 1873,
-      "intensity": 65.54
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 8,
-      "hour_label": "08:00",
-      "revenue": 11991.45,
-      "transactions": 2540,
-      "intensity": 88.25
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 9,
-      "hour_label": "09:00",
-      "revenue": 12246.4,
-      "transactions": 2527,
-      "intensity": 90.12
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 10,
-      "hour_label": "10:00",
-      "revenue": 12382.48,
-      "transactions": 2596,
-      "intensity": 91.12
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 11,
-      "hour_label": "11:00",
-      "revenue": 7055.85,
-      "transactions": 1468,
-      "intensity": 51.93
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 12,
-      "hour_label": "12:00",
-      "revenue": 5540.35,
-      "transactions": 1226,
-      "intensity": 40.77
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 13,
-      "hour_label": "13:00",
-      "revenue": 6223.15,
-      "transactions": 1311,
-      "intensity": 45.8
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 14,
-      "hour_label": "14:00",
-      "revenue": 5872.42,
-      "transactions": 1257,
-      "intensity": 43.22
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 15,
-      "hour_label": "15:00",
-      "revenue": 5974.31,
-      "transactions": 1270,
-      "intensity": 43.97
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 16,
-      "hour_label": "16:00",
-      "revenue": 5649.76,
-      "transactions": 1272,
-      "intensity": 41.58
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 17,
-      "hour_label": "17:00",
-      "revenue": 5649.55,
-      "transactions": 1235,
-      "intensity": 41.58
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 18,
-      "hour_label": "18:00",
-      "revenue": 5166.35,
-      "transactions": 1118,
-      "intensity": 38.02
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 19,
-      "hour_label": "19:00",
-      "revenue": 3828.55,
-      "transactions": 836,
-      "intensity": 28.17
-    },
-    {
-      "weekday": "Wednesday",
-      "hour": 20,
-      "hour_label": "20:00",
-      "revenue": 430.83,
-      "transactions": 83,
-      "intensity": 3.17
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 6,
-      "hour_label": "06:00",
-      "revenue": 3464.9,
-      "transactions": 731,
-      "intensity": 25.5
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 7,
-      "hour_label": "07:00",
-      "revenue": 9209.23,
-      "transactions": 1959,
-      "intensity": 67.77
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 8,
-      "hour_label": "08:00",
-      "revenue": 11420.49,
-      "transactions": 2389,
-      "intensity": 84.05
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 9,
-      "hour_label": "09:00",
-      "revenue": 10963.73,
-      "transactions": 2375,
-      "intensity": 80.68
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 10,
-      "hour_label": "10:00",
-      "revenue": 12091.09,
-      "transactions": 2570,
-      "intensity": 88.98
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 11,
-      "hour_label": "11:00",
-      "revenue": 6898.55,
-      "transactions": 1470,
-      "intensity": 50.77
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 12,
-      "hour_label": "12:00",
-      "revenue": 6073.93,
-      "transactions": 1307,
-      "intensity": 44.7
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 13,
-      "hour_label": "13:00",
-      "revenue": 5972.46,
-      "transactions": 1317,
-      "intensity": 43.95
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 14,
-      "hour_label": "14:00",
-      "revenue": 6114.61,
-      "transactions": 1341,
-      "intensity": 45.0
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 15,
-      "hour_label": "15:00",
-      "revenue": 6087.68,
-      "transactions": 1323,
-      "intensity": 44.8
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 16,
-      "hour_label": "16:00",
-      "revenue": 6400.13,
-      "transactions": 1406,
-      "intensity": 47.1
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 17,
-      "hour_label": "17:00",
-      "revenue": 6027.33,
-      "transactions": 1311,
-      "intensity": 44.36
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 18,
-      "hour_label": "18:00",
-      "revenue": 5234.58,
-      "transactions": 1125,
-      "intensity": 38.52
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 19,
-      "hour_label": "19:00",
-      "revenue": 4529.1,
-      "transactions": 970,
-      "intensity": 33.33
-    },
-    {
-      "weekday": "Thursday",
-      "hour": 20,
-      "hour_label": "20:00",
-      "revenue": 279.97,
-      "transactions": 60,
-      "intensity": 2.06
-    },
     {
       "weekday": "Friday",
       "hour": 6,
@@ -1438,6 +1247,126 @@
       "revenue": 387.53,
       "transactions": 80,
       "intensity": 2.85
+    },
+    {
+      "weekday": "Monday",
+      "hour": 6,
+      "hour_label": "06:00",
+      "revenue": 3098.58,
+      "transactions": 661,
+      "intensity": 22.8
+    },
+    {
+      "weekday": "Monday",
+      "hour": 7,
+      "hour_label": "07:00",
+      "revenue": 9516.52,
+      "transactions": 1992,
+      "intensity": 70.03
+    },
+    {
+      "weekday": "Monday",
+      "hour": 8,
+      "hour_label": "08:00",
+      "revenue": 11604.69,
+      "transactions": 2482,
+      "intensity": 85.4
+    },
+    {
+      "weekday": "Monday",
+      "hour": 9,
+      "hour_label": "09:00",
+      "revenue": 11898.33,
+      "transactions": 2494,
+      "intensity": 87.56
+    },
+    {
+      "weekday": "Monday",
+      "hour": 10,
+      "hour_label": "10:00",
+      "revenue": 12427.25,
+      "transactions": 2612,
+      "intensity": 91.45
+    },
+    {
+      "weekday": "Monday",
+      "hour": 11,
+      "hour_label": "11:00",
+      "revenue": 7179.09,
+      "transactions": 1478,
+      "intensity": 52.83
+    },
+    {
+      "weekday": "Monday",
+      "hour": 12,
+      "hour_label": "12:00",
+      "revenue": 6139.64,
+      "transactions": 1308,
+      "intensity": 45.18
+    },
+    {
+      "weekday": "Monday",
+      "hour": 13,
+      "hour_label": "13:00",
+      "revenue": 5771.26,
+      "transactions": 1267,
+      "intensity": 42.47
+    },
+    {
+      "weekday": "Monday",
+      "hour": 14,
+      "hour_label": "14:00",
+      "revenue": 6463.31,
+      "transactions": 1376,
+      "intensity": 47.56
+    },
+    {
+      "weekday": "Monday",
+      "hour": 15,
+      "hour_label": "15:00",
+      "revenue": 6159.49,
+      "transactions": 1319,
+      "intensity": 45.33
+    },
+    {
+      "weekday": "Monday",
+      "hour": 16,
+      "hour_label": "16:00",
+      "revenue": 6139.96,
+      "transactions": 1355,
+      "intensity": 45.19
+    },
+    {
+      "weekday": "Monday",
+      "hour": 17,
+      "hour_label": "17:00",
+      "revenue": 5927.35,
+      "transactions": 1302,
+      "intensity": 43.62
+    },
+    {
+      "weekday": "Monday",
+      "hour": 18,
+      "hour_label": "18:00",
+      "revenue": 5006.19,
+      "transactions": 1077,
+      "intensity": 36.84
+    },
+    {
+      "weekday": "Monday",
+      "hour": 19,
+      "hour_label": "19:00",
+      "revenue": 4015.22,
+      "transactions": 846,
+      "intensity": 29.55
+    },
+    {
+      "weekday": "Monday",
+      "hour": 20,
+      "hour_label": "20:00",
+      "revenue": 330.4,
+      "transactions": 74,
+      "intensity": 2.43
     },
     {
       "weekday": "Saturday",
@@ -1678,13 +1607,372 @@
       "revenue": 383.88,
       "transactions": 75,
       "intensity": 2.83
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 6,
+      "hour_label": "06:00",
+      "revenue": 3464.9,
+      "transactions": 731,
+      "intensity": 25.5
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 7,
+      "hour_label": "07:00",
+      "revenue": 9209.23,
+      "transactions": 1959,
+      "intensity": 67.77
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 8,
+      "hour_label": "08:00",
+      "revenue": 11420.49,
+      "transactions": 2389,
+      "intensity": 84.05
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 9,
+      "hour_label": "09:00",
+      "revenue": 10963.73,
+      "transactions": 2375,
+      "intensity": 80.68
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 10,
+      "hour_label": "10:00",
+      "revenue": 12091.09,
+      "transactions": 2570,
+      "intensity": 88.98
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 11,
+      "hour_label": "11:00",
+      "revenue": 6898.55,
+      "transactions": 1470,
+      "intensity": 50.77
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 12,
+      "hour_label": "12:00",
+      "revenue": 6073.93,
+      "transactions": 1307,
+      "intensity": 44.7
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 13,
+      "hour_label": "13:00",
+      "revenue": 5972.46,
+      "transactions": 1317,
+      "intensity": 43.95
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 14,
+      "hour_label": "14:00",
+      "revenue": 6114.61,
+      "transactions": 1341,
+      "intensity": 45.0
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 15,
+      "hour_label": "15:00",
+      "revenue": 6087.68,
+      "transactions": 1323,
+      "intensity": 44.8
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 16,
+      "hour_label": "16:00",
+      "revenue": 6400.13,
+      "transactions": 1406,
+      "intensity": 47.1
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 17,
+      "hour_label": "17:00",
+      "revenue": 6027.33,
+      "transactions": 1311,
+      "intensity": 44.36
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 18,
+      "hour_label": "18:00",
+      "revenue": 5234.58,
+      "transactions": 1125,
+      "intensity": 38.52
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 19,
+      "hour_label": "19:00",
+      "revenue": 4529.1,
+      "transactions": 970,
+      "intensity": 33.33
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 20,
+      "hour_label": "20:00",
+      "revenue": 279.96999999999997,
+      "transactions": 60,
+      "intensity": 2.06
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 6,
+      "hour_label": "06:00",
+      "revenue": 2320.25,
+      "transactions": 489,
+      "intensity": 17.08
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 7,
+      "hour_label": "07:00",
+      "revenue": 8841.71,
+      "transactions": 1846,
+      "intensity": 65.07
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 8,
+      "hour_label": "08:00",
+      "revenue": 12950.19,
+      "transactions": 2783,
+      "intensity": 95.3
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 9,
+      "hour_label": "09:00",
+      "revenue": 13588.47,
+      "transactions": 2753,
+      "intensity": 100.0
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 10,
+      "hour_label": "10:00",
+      "revenue": 13497.68,
+      "transactions": 2846,
+      "intensity": 99.33
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 11,
+      "hour_label": "11:00",
+      "revenue": 5877.41,
+      "transactions": 1301,
+      "intensity": 43.25
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 12,
+      "hour_label": "12:00",
+      "revenue": 5172.64,
+      "transactions": 1126,
+      "intensity": 38.07
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 13,
+      "hour_label": "13:00",
+      "revenue": 5443.46,
+      "transactions": 1152,
+      "intensity": 40.06
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 14,
+      "hour_label": "14:00",
+      "revenue": 5621.56,
+      "transactions": 1224,
+      "intensity": 41.37
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 15,
+      "hour_label": "15:00",
+      "revenue": 5852.24,
+      "transactions": 1254,
+      "intensity": 43.07
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 16,
+      "hour_label": "16:00",
+      "revenue": 5723.78,
+      "transactions": 1227,
+      "intensity": 42.12
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 17,
+      "hour_label": "17:00",
+      "revenue": 5609.85,
+      "transactions": 1232,
+      "intensity": 41.28
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 18,
+      "hour_label": "18:00",
+      "revenue": 4304.36,
+      "transactions": 957,
+      "intensity": 31.68
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 19,
+      "hour_label": "19:00",
+      "revenue": 3967.94,
+      "transactions": 872,
+      "intensity": 29.2
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 20,
+      "hour_label": "20:00",
+      "revenue": 684.4,
+      "transactions": 140,
+      "intensity": 5.04
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 6,
+      "hour_label": "06:00",
+      "revenue": 3396.23,
+      "transactions": 698,
+      "intensity": 24.99
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 7,
+      "hour_label": "07:00",
+      "revenue": 8905.86,
+      "transactions": 1873,
+      "intensity": 65.54
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 8,
+      "hour_label": "08:00",
+      "revenue": 11991.45,
+      "transactions": 2540,
+      "intensity": 88.25
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 9,
+      "hour_label": "09:00",
+      "revenue": 12246.4,
+      "transactions": 2527,
+      "intensity": 90.12
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 10,
+      "hour_label": "10:00",
+      "revenue": 12382.48,
+      "transactions": 2596,
+      "intensity": 91.12
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 11,
+      "hour_label": "11:00",
+      "revenue": 7055.85,
+      "transactions": 1468,
+      "intensity": 51.93
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 12,
+      "hour_label": "12:00",
+      "revenue": 5540.35,
+      "transactions": 1226,
+      "intensity": 40.77
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 13,
+      "hour_label": "13:00",
+      "revenue": 6223.15,
+      "transactions": 1311,
+      "intensity": 45.8
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 14,
+      "hour_label": "14:00",
+      "revenue": 5872.42,
+      "transactions": 1257,
+      "intensity": 43.22
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 15,
+      "hour_label": "15:00",
+      "revenue": 5974.31,
+      "transactions": 1270,
+      "intensity": 43.97
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 16,
+      "hour_label": "16:00",
+      "revenue": 5649.76,
+      "transactions": 1272,
+      "intensity": 41.58
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 17,
+      "hour_label": "17:00",
+      "revenue": 5649.55,
+      "transactions": 1235,
+      "intensity": 41.58
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 18,
+      "hour_label": "18:00",
+      "revenue": 5166.35,
+      "transactions": 1118,
+      "intensity": 38.02
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 19,
+      "hour_label": "19:00",
+      "revenue": 3828.55,
+      "transactions": 836,
+      "intensity": 28.17
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 20,
+      "hour_label": "20:00",
+      "revenue": 430.83,
+      "transactions": 83,
+      "intensity": 3.17
     }
   ],
   "insights": [
-    "Total revenue mencapai $698,812.33 dari 149,116 transaksi selama 181 hari bisnis.",
+    "Total revenue mencapai $698,812.33 dari 149,116 transaksi selama periode analisis.",
     "Revenue naik 103.83% dari Januari ke Juni 2023, menunjukkan momentum pertumbuhan yang kuat.",
-    "Coffee adalah kategori terbesar berdasarkan revenue, sedangkan Hell's Kitchen menjadi cabang dengan performa terbaik.",
-    "Jam penjualan terkuat adalah 10:00, dan jam 07:00-10:00 menyumbang 45.80% dari total revenue.",
-    "Produk dengan revenue terbesar adalah Sustainably Grown Organic Lg, sehingga analisis produk prioritas penting untuk keputusan operasional."
+    "Coffee dan Tea menjadi kategori utama dengan kontribusi sekitar 66.7% dari total revenue.",
+    "Jam penjualan terkuat adalah 10:00, dan jam 07:00-10:00 menyumbang 45.80% dari total revenue."
   ]
 }
