@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 32 40% 98%;
+    --foreground: 24 35% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 24 35% 12%;
+    --primary: 24 92% 31%;
+    --primary-foreground: 40 100% 97%;
+    --secondary: 34 76% 92%;
+    --secondary-foreground: 25 45% 17%;
+    --muted: 32 32% 93%;
+    --muted-foreground: 24 15% 42%;
+    --accent: 38 92% 87%;
+    --accent-foreground: 25 45% 17%;
+    --border: 31 24% 85%;
+    --input: 31 24% 85%;
+    --ring: 24 92% 31%;
+    --radius: 1.25rem;
+    --chart-1: 24 92% 31%;
+    --chart-2: 35 91% 54%;
+    --chart-3: 151 47% 36%;
+    --chart-4: 220 68% 45%;
+    --chart-5: 350 70% 48%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer components {
+  .dashboard-container {
+    @apply mx-auto max-w-[1440px] px-4 py-6 md:px-8 lg:px-10;
+  }
+
+  .soft-grid-bg {
+    background-image:
+      radial-gradient(circle at top left, rgba(180, 83, 9, 0.16), transparent 28rem),
+      radial-gradient(circle at bottom right, rgba(245, 158, 11, 0.12), transparent 30rem),
+      linear-gradient(rgba(120, 53, 15, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(120, 53, 15, 0.06) 1px, transparent 1px);
+    background-size: auto, auto, 38px 38px, 38px 38px;
+  }
+
+  .glass-card {
+    @apply border bg-white/80 shadow-sm backdrop-blur-xl;
+  }
+}
